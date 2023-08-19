@@ -11,5 +11,5 @@ terraform {
 
 provider "aws" {
   region = "ap-south-1"
-  shared_credentials_file = "$HOME/.aws/credentials"
+  shared_credentials_files = "$HOME/.aws/credentials"
 }
