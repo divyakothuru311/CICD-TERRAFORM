@@ -6,7 +6,7 @@ public_key_path = "~/.ssh/id_rsa.pub"
 app_subnet_name = "app"
 app_ec2_size    = "t2.micro"
 ubuntu_ami_id   = "ami-0f5ee92e2d63afc18"
-private_key_path"  = "~/.ssh/id_rsa"
+private_key_path  = "~/.ssh/id_rsa"
 
 appsecurity_group_config = {
   name        = "appsg"
